@@ -75,6 +75,13 @@ console.log(busqueda);
 
 console.log(paises.some(pais=>pais=='butaan'));
 
+//Ordenar un array numérico de menor a mayor 
+
+arreglo=[3,34,2,67,4];
+
+arreglo.sort(function(x,y){
+     return x-y;
+});
 
 
 
